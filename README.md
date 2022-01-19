@@ -1,2 +1,4 @@
-# ML_project
-Based on data available predicting the price of car using Regression Model.
+# Car_price_prediction
+Overview:
+Based on data available training the model for predicting the price of car.
+Then using the Flask app the model is deployed for prediction.
