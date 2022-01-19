@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <div style='color: blue'>
+        <form action="submit" method="POST">
+            <h2>Predictive Analysis</h2>
+            <h3>Year</h3>
+            <input id="first" name="Year" type="number">
+            <h3>What is the Showroom Price ? (in lakhs)</h3>
+            <input id="second" name="Present_Price" type="number" required="required">
+            <h4>How many kilometers driven ?</h4>
+            <input id="third" name="Kms_Driven" type="number" required="required">
+            <h5>How many owners previously had the car 0/1/3</h5>
+            <input id="forth" name="Owner" type="number" required="required">
+            <h6>what is the fuel type ?</h6>
+            <select name="Fuel_Type_Petrol" id="Fuel" required="required">
+                <option value="Petrol">Petrol</option>
+                <option value="Diesel">Diesel</option>
+                <option value="CNG">CNG</option>
+            </select><br>
+            <h7>Are you a dealer or an individual</h7>
+            <select name="Seller_Type_Individual" id="Seller" required="required">
+                <option value="Dealer">Dealer</option>
+                <option value="Individual">Individual</option>
+            </select><br>
+            <h8>Transmission type</h8>
+            <select name="Transmission_Manual" id="Trans" required="required">
+                <option value="Manual">Manual</option>
+                <option value="Automatic">Automatic</option>
+            </select><br>
+            <input type="submit" value="Calculate the selling price">
+        </form>
+        </div>
+    </body>
+</html>
